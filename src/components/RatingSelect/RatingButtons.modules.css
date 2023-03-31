@@ -1,0 +1,25 @@
+input {
+  display: none;
+}
+
+label {
+  cursor: pointer;
+  background-color: var(--color-dark-blue);
+  color: var(--color-medium-gray);
+  width: 3.4rem;
+  height: 3.4rem;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  transition: all 0.2s ease-in-out;
+}
+
+label:hover {
+  background-color: var(--color-medium-gray);
+  color: var(--color-pure-white);
+}
+
+input:checked + label {
+  background-color: var(--color-orange);
+  color: var(--color-pure-white);
+}
