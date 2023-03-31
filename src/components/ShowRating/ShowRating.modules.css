@@ -1,0 +1,22 @@
+.thanks-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0.867rem 0;
+}
+
+.rating-selection p {
+  color: var(--color-orange);
+  background-color: var(--color-dark-blue);
+  padding: 0.267rem 1.333rem;
+  width: 100%;
+  border-radius: 1.5rem;
+  margin: 2.133rem 0;
+}
+
+.thanks-text {
+  margin-top: 1.6rem;
+  max-width: 22.667rem;
+}
