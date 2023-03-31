@@ -1,7 +1,9 @@
 import React from 'react';
 
-function RatingButton() {
-  return <div></div>;
+import styles from './RatingButton.modules.css';
+
+function RatingButton({ ratingNumber }) {
+  return <>{ratingNumber}</>;
 }
 
 export default RatingButton;

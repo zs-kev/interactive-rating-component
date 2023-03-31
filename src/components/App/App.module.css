@@ -1,3 +1,6 @@
 main {
   background: var(--color-black-gradient);
+  max-width: 26rem;
+  padding: 2rem;
+  border-radius: 1.875rem;
 }
