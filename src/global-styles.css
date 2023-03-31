@@ -1,0 +1,77 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html,
+body,
+#root {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* Custom global styles */
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+html {
+  --color-very-dark-blue: hsl(218deg, 11%, 8%);
+  --color-dark-blue: hsl(213deg, 19%, 18%);
+  --color-medium-gray: hsl(217deg, 12%, 54%);
+  --color-light-gray: hsl(216deg, 12%, 63%);
+  --color-orange: hsl(25deg, 97%, 53%);
+  --color-pure-white: hsl(0deg, 0%, 100%);
+  --color-black-gradient: radial-gradient(
+    circle,
+    hsl(215deg, 20%, 17%) 0%,
+    hsl(215deg, 24%, 12%) 100%
+  );
+  font-family: 'Overpass', sans-serif;
+  --font-weight-bold: 700;
+  --font-weight-regular: 400;
+}
+
+body {
+  background: var(--color-very-dark-blue);
+}
+
+h1 {
+  font-size: 2.3331rem;
+  font-weight: var(--font-weight-bold);
+}
