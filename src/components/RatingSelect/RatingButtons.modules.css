@@ -12,6 +12,7 @@ label {
   display: grid;
   place-content: center;
   transition: all 0.2s ease-in-out;
+  line-height: 1;
 }
 
 label:hover {
